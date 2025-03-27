@@ -24,16 +24,16 @@ const Navbar = () => {
                         <ul className="flex items-center gap-10 font-bold text-gray-600">
                             {MenuItems.map((item) => {
                                 return <li key={item.id}>
-                                    <Link to={item.url} className="inline-block py-1 px-3 hover:text-amber-500 font-semibold">{item.title}</Link></li>;
+                                    <Link to={item.url} className="inline-block py-1 px-3 hover:text-fuchsia-900 font-semibold">{item.title}</Link></li>;
                             })}
                         </ul>
                     </div>
                     {/* button section */}
                     <div className="flex align-middle gap-4">
-                        <button className="text-2xl hover:text-amber-500 rounded-full p-2 duration-200">
+                        <button className="text-2xl hover:text-fuchsia-900 rounded-full p-2 duration-200">
                             <CgProfile />
                         </button>
-                        <button className="signup hover:bg-amber-500 text-amber-500 font-semibold hover:text-white rounded-md border-2 border-amber-500 duration-200 hidden md:block">
+                        <button className="signup hover:bg-fuchsia-900 text-fuchsia-900 font-semibold hover:text-white rounded-md border-2 border-fuchsia-900 duration-200 hidden md:block">
                             Sign Up
                         </button>
                     </div>
