@@ -1,0 +1,20 @@
+.item-card {
+    padding: 32px;
+}
+
+.item-card img {
+    padding: 1rem;
+}
+
+.arrows {
+    padding: 2rem;
+}
+
+.shop {
+    margin: 8rem 2rem;
+}
+
+.category-title {
+    padding-left: 2rem;
+}
+

@@ -17,7 +17,7 @@ const Partners = () => {
             <h1 className="uppercase">Our partners</h1>
         </div>
 
-        <div className='partners grid grid-cols-3 items-center justify-center gap-16 [&>div>img]:w-72 [&>div]:flex  [&>div]:items-center [&>div]:justify-center' >
+        <div className='partners grid grid-cols-3 items-center justify-center gap-16 [&>div>img]:w-64 [&>div]:flex  [&>div]:items-center [&>div]:justify-center' >
             <div>
                 <img src={singer} alt="" />
             </div>
