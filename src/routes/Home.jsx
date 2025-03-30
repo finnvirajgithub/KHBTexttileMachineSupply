@@ -23,7 +23,9 @@ function Home() {
                 btnText = "Shop Now"
             />
             <Partners />
-            <Carousal />
+            <Carousal 
+                class="shop"
+            />
         </>
     );
 }
