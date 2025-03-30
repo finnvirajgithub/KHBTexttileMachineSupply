@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import heroImg from "../assets/heroHome.avif"
+import Partners from "../components/partners";
 
 function Home() {
     return(
@@ -20,6 +21,7 @@ function Home() {
                 url = "/shop"
                 btnText = "Shop Now"
             />
+            <Partners />
         </>
     );
 }
