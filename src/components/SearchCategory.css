@@ -1,0 +1,16 @@
+.div1 {
+    padding: 0px 16px;
+}
+
+.btn {
+    padding: 8px 12px;
+}
+
+.space-x-4 > *:not(:last-child) {
+    margin-right: 1rem; /* 4 units in Tailwind, equivalent to 16px */
+  }
+  
+
+.brands-category {
+    padding: 8px 16px;
+}

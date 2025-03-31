@@ -38,7 +38,7 @@ const Carousal = (props) => {
             
             {Category01.map((item) => (
                 
-                    <div key={item.id} className='item-card'>
+                    <div key={item.id} className='item-card z-10'>
                         
                         <div className="item-card bg-gray-100  rounded-4xl flex flex-col">
                             <img src={item.img} alt="" />
