@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="flex flex-col ">
             <h2 className="font-bold text-xl mb-4">Quick Links</h2>
             <ul className="space-y-1 text-sm">
-              <li><a href="/Home" className="hover:text-purple-500">HOME</a></li>
+              <li><a href="/" className="hover:text-purple-500">HOME</a></li>
               <li><a href="/about" className="hover:text-purple-500">ABOUT</a></li>
               <li><a href="/shop" className="hover:text-purple-500">SHOP</a></li>
               <li><a href="/contact" className="hover:text-purple-500">CONTACT</a></li>
