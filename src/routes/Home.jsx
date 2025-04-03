@@ -1,10 +1,10 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import heroImg from "../assets/heroHome.avif"
-import Partners from "../components/partners";
 import Carousal from "../components/Carousel";
 import Footer from '../components/Footer';
 import ContactUsSection from '../components/ContactUsSection';
+import Partners from "../components/Partners";
 
 function Home() {
     return(
