@@ -9,7 +9,7 @@ const SearchCategory = () => {
       <div className='div1 bg-black h-20 flex items-center z-100'>
         <div className='flex space-x-4'>
           <div className='relative group'>
-            <button className='btn flex rounded-md border-2 border-gray-200 text-gray-700 w-52 bg-white shadow-md justify-between items-center'>
+            <button className='btn flex rounded-md border-2 border-gray-200 text-gray-700 w-34 sm:52 bg-white shadow-md justify-between items-center'>
                 Brands
                 <RiArrowDropDownLine className='text-2xl'/>
             </button>
@@ -22,7 +22,7 @@ const SearchCategory = () => {
           </div>
 
           <div className='relative group'>
-            <button className='btn flex rounded-md border-2 border-gray-200 text-gray-700 w-52 bg-white shadow-md justify-between items-center'>
+            <button className='btn flex rounded-md border-2 border-gray-200 text-gray-700 w-34 sm:52 bg-white shadow-md justify-between items-center'>
                 Category
                 <RiArrowDropDownLine className='text-2xl'/>
             </button>
