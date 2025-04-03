@@ -18,7 +18,7 @@ const Navbar = () => {
                 <div className="container flex justify-between items-center py-8">
                     {/* logo section */}
                     <div className="text-2xl">
-                        <img src={logo} alt="" className="w-55"/>
+                        <Link to={'/'}><img src={logo} alt="" className="w-55"/></Link>
                     </div>
 
                     {/* menu section */}
