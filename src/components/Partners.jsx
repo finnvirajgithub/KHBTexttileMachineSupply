@@ -12,7 +12,7 @@ import trutzschler from '../assets/Trützschler_Logo.svg'
 
 const Partners = () => {
   return (
-    <> 
+    <div className='bg-gray-100'> 
         <div className="partners-title flex flex-row justify-center font-semibold text-4xl pt-2">
             <h1 className="uppercase">Our partners</h1>
         </div>
@@ -46,7 +46,7 @@ const Partners = () => {
                 <img src={trutzschler} alt="" />
             </div>
         </div>
-    </>
+    </div>
   )
 }
 

@@ -1,3 +1,7 @@
 .partners, .partners-title {
-    margin-top: 5rem;
+    padding-top: 5rem;
+}
+
+.partners {
+    padding-bottom: 5rem;
 }

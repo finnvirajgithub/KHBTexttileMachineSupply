@@ -5,6 +5,7 @@ import heroImg from "../assets/heroHome.avif";
 import Footer from '../components/Footer';
 import Aboutus from '../components/Aboutus'
 import ContactUsSection from '../components/ContactUsSection'
+import OurServices from '../components/OurServices'
 
 const About = () => {
     return (
@@ -21,6 +22,7 @@ const About = () => {
                   title = "ABOUT"
               />
               <Aboutus/>
+              <OurServices />
               <ContactUsSection/>
               <Footer />
           </>

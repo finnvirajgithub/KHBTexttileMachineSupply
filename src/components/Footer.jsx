@@ -6,11 +6,11 @@ const Footer = () => {
     <footer className="bg-gray-200 text-[#9327C6] mt-12 ">
       <div className="w-full mx-auto" style={{ padding: '50px 100px' }}>
         {/* Top Section */}
-        <div className="grid grid-cols-4 gap-x-20  pb-8 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-20  pb-8 ">
           {/* Column 1 */}
           <div className="space-y-4 flex flex-col "> <a href='#'></a>
-            <h2 className="font-extrabold text-5xl" >KHB Associates</h2>
-            <p className="text-sm " style={{ padding: '10px 0px' }}>PRIVATE LIMITED</p>
+            <h2 className="font-extrabold text-3xl md:text-5xl" >KHB Associates</h2>
+            <p className="text-sm text-center md:text-left" style={{ padding: '10px 0px' }}>PRIVATE LIMITED</p>
             <div className="flex space-x-2 mt-2">
               {[...Array(4)].map((_, index) => (
                 <div key={index} className="w-5 h-5 bg-white rounded-full" style={{ margin: '0px 20px' }}></div>
@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
 
           {/* Column 2 */}
-          <div className="flex flex-col "style={{ padding: '0px 50px' }}>
+          <div className="flex flex-col items-center md:items-start"style={{ padding: '0px 50px' }}>
             <h2 className="font-bold text-xl mb-4">Brands</h2>
             <ul className="space-y-1 text-sm" style={{ padding: '0px 10px' }}>
               <li className="hover:text-purple-500">Juki</li>
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
 
           {/* Column 3 */}
-          <div className="flex flex-col ">
+          <div className="flex flex-col items-center md:items-start">
             <h2 className="font-bold text-xl mb-4">Categories</h2>
             <ul className="space-y-1 text-sm">
               <li className="hover:text-purple-500">Machines</li>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
 
           {/* Column 4 */}
-          <div className="flex flex-col ">
+          <div className="flex flex-col items-center md:items-start">
             <h2 className="font-bold text-xl mb-4">Quick Links</h2>
             <ul className="space-y-1 text-sm">
               <li><a href="/" className="hover:text-purple-500">HOME</a></li>

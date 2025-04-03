@@ -33,7 +33,7 @@ const Carousal = (props) => {
   return (
     <>
         <div className={props.class}>
-        <p className='category-title text-black font-semibold text-4xl'>{props.title}</p>
+        <p className='category-title text-[#9327C6] font-semibold text-4xl'>{props.title}</p>
         <Slider {...settings}>
             
             {Category01.map((item) => (
@@ -52,7 +52,7 @@ const Carousal = (props) => {
             
         </Slider>
         <button className='flex justify-center w-full'>
-            <a href="/shop" className='herobtn decoration-0 bg-white text-fuchsia-900 rounded-md hover:bg-fuchsia-900 hover:text-white border-fuchsia-900 border-2'>Shop Now</a>
+            <a href="/shop" className='herobtn decoration-0 bg-white text-[#9327C6] rounded-md hover:bg-[#9327C6] hover:text-white border-[#9327C6] border-2'>Shop Now</a>
         </button>
         </div>
         

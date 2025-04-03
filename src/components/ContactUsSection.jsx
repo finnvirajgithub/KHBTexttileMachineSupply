@@ -11,7 +11,7 @@ const ContactUsSection = () => {
             Want to get in touch? We'd love to hear from you. Here's how you can reach us.
           </p>
           <a href='/contact'>
-          <button className=" bg-white text-fuchsia-900 rounded-md hover:bg-fuchsia-900 hover:text-white border-2 border-fuchsia-900" style={{ padding: '5px 10px 5px 10px', margin:'20px 0px 50px '}}>
+          <button className=" bg-white text-[#9327C6] rounded-md hover:bg-[#9327C6] hover:text-white border-2 border-[#9327C6]" style={{ padding: '5px 10px 5px 10px', margin:'20px 0px 50px '}}>
             Contact Us
           </button> </a>
         </div>

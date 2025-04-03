@@ -15,7 +15,7 @@ const ResponsiveMenu = ({open}) => {
                     exit={{ opacity:0 }}
                     className='absolute top-20 left-0 w-full h-screen z-20'
                 >
-                    <div className='mobileMenu text-xl font-semibold uppercase bg-fuchsia-900 text-white py-10 rounded-3xl md:hidden'>
+                    <div className='mobileMenu text-xl font-semibold uppercase bg-fuchsia-900 text-white py-10 rounded-3xl md:hidden fixed w-[calc(100%-2rem)] left-1/2 -translate-x-1/2'>
                         <ul className='flex flex-col justify-center items-center gap-10'>
                             {MenuItems.map((item) => {
                                 return <li key={item.id}>
