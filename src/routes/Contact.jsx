@@ -1,12 +1,12 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import heroImg from "../assets/heroHome.avif"
-import Carousal from "../components/Carousel";
 import Footer from '../components/Footer';
-import ContactUsSection from "../components/ContactUsSection";
+import ContactForm from "../components/ContactForm";
+import Mapcomponents from "../components/Mapcomponents";
 
 
-const Shop = () => {
+const Contact = () => {
   return (
     <>
             <Navbar />
@@ -18,28 +18,13 @@ const Shop = () => {
                 classdiv3 = "absolute top-1/2"
                 classh1 = "text-7xl font-extrabold text-white"
                 classp = "herop text-5xl text-white font-semibold"
-                title = "SHOP"
+                title = "CONTACT"
             />
-            <Carousal 
-                title = 'Category 1'
-                class = 'shop-in-shop'
-            />
-            <Carousal 
-                title = 'Category 2'
-                class = 'shop-in-shop'
-            />
-            <Carousal 
-                title = 'Category 3'
-                class = 'shop-in-shop'
-            />
-            <Carousal 
-                title = 'Category 4'
-                class = 'shop-in-shop'
-            />
-            <ContactUsSection/>
+            <ContactForm />
+            <Mapcomponents/>
             <Footer />
         </>
   )
 }
 
-export default Shop
+export default Contact
