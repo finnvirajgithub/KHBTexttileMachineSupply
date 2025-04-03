@@ -2,7 +2,13 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import heroImg from "../assets/heroHome.avif"
 import Carousal from "../components/Carousel";
+
+import Footer from '../components/Footer';
+import ContactUsSection from "../components/ContactUsSection";
+
+
 import SearchCategory from "../components/searchCategory";
+
 
 const Shop = () => {
   return (
@@ -14,9 +20,12 @@ const Shop = () => {
                 classimg = "h-full w-full object-cover"
                 classdiv2 = "h-full absolute inset-0 bg-black/20"
                 classdiv3 = "absolute top-1/2"
+
+
                 classh1 = "text-7xl font-extrabold bg-white  bg-clip-text text-transparent"
+
                 classp = "herop text-5xl text-white font-semibold"
-                title = "Shop"
+                title = "SHOP"
             />
             <SearchCategory />
             <Carousal 
@@ -35,6 +44,8 @@ const Shop = () => {
                 title = 'Category 4'
                 class = 'shop-in-shop'
             />
+            <ContactUsSection/>
+            <Footer />
         </>
   )
 }

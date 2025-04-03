@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import heroImg from "../assets/heroHome.avif"
 import Partners from "../components/partners";
 import Carousal from "../components/Carousel";
+import Footer from '../components/Footer';
+import ContactUsSection from '../components/ContactUsSection';
 
 function Home() {
     return(
@@ -10,22 +12,26 @@ function Home() {
             <Navbar />
             <Hero 
                 img = {heroImg}
-                classdiv1 = "h-screen w-full relative "
+                classdiv1 = "h-screen w-full relative"
                 classimg = "h-full w-full object-cover"
-                classdiv2 = "absolute inset-0 bg-black/20"
-                classdiv3 = "absolute top-1/2 left-20"
-                classh1 = "heroh1 text-7xl font-extrabold bg-fuchsia-900  bg-clip-text text-transparent"
-                classp = "herop text-5xl text-white font-semibold"
+                classdiv2 = "absolute inset-0 bg-black/50"
+                classdiv3 = "absolute top-1/2 left-20 -translate-y-1/2"
+                classh1 = "heroh1 text-7xl font-extrabold text-white"
+                classp = "herop text-4xl text-fuchsia-900 font-semibold "
                 classa = "herobtn decoration-0 bg-white text-fuchsia-900 rounded-md hover:bg-fuchsia-900 hover:text-white"
-                title = "KHB Associates"
+                title = "KHB ASSOCIATES"
                 text = "PRIVATE LIMITED"
                 url = "/shop"
                 btnText = "Shop Now"
+                
+
             />
             <Partners />
             <Carousal 
                 class="shop"
             />
+            <ContactUsSection />
+            <Footer />
         </>
     );
 }
